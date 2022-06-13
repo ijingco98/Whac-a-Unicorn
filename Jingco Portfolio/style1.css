@@ -1,0 +1,533 @@
+
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+html {
+    font-size: 8px;
+}
+nav {
+    position:absolute;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+ }
+  nav a:hover {
+    border-bottom: 3px dotted pink;
+ }
+ nav ul {
+    display: flex;
+    gap: 1.9rem;
+ }
+.invisible{
+    padding: top 5%;
+    padding-bottom:5%;
+    color:white;
+    font-size: 1rem;
+    font-style:italic;
+    text-align: center;
+} 
+ .my-name {
+      font-size: 2rem;
+    }
+ .navigation{
+    font-size: 0rem;
+    font-weight: 400;
+    }
+ .gif{
+    height: 20px;
+    width: 20px;
+   }
+ .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+   }
+ .hero-img {
+    position: sticky;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    border: dotted pink 4px;
+   }
+ .bio {
+    padding: 0.625rem;
+    text-align: center;
+   }
+    
+ .bio-title {
+    font-size: 3rem;
+    padding: 0.3rem 0;
+    }
+ .bio-text {
+    font-size: 2rem;
+    padding: 0.3rem 0;
+  }
+  
+#home {
+    width: 100%;
+    padding-top: 10%;
+    background-image:none;
+    width: 100%;
+    height: auto;
+}
+  
+#About {
+    min-height:auto;
+    padding-bottom: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:none;
+}
+   header {
+    width: 95%;
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+   section {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+   }
+   .box {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    background-color: #FADCD9;
+  
+   }
+  .text {
+    color: white;
+    font-size: 1rem;
+  }
+  .level {
+    padding-top: 20px;
+  }
+  
+#experience {
+    min-height:auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    min-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:none;
+   }
+  
+   .exp-head{
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+  }
+   .timeline {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+   }
+   .timeline ul{
+    list-style: none;
+  
+   }
+   .timeline ul li{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 15vh;
+    width: 45%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   }
+   .timeline ul li:last-child {
+    margin-bottom:0;
+   }
+  .timeline-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+  .insti{
+    font-size: 1.25rem;
+    margin-bottom:0px;
+    }
+  .year {
+    font-size: .90rem;
+    color: powderblue;
+    padding-bottom: 5px;
+    }
+   .info {
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 0;
+    }
+#skills {
+    min-height: auto;
+    width:100%;
+    background-image:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+  
+  #projects {
+  min-height: auto;
+  width:100%;
+  padding-top: 50px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:none;
+}
+#contact {
+  min-height:auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  background-image: none;
+  align-items: center;
+  justify-content: center;
+}
+  form {
+    width: 70%;
+    max-width: auto;
+  }
+  
+  .input-group {
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  input, textarea{
+    width: 100%;
+    padding: 4px;
+    outline: 0;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+  }
+  
+ button{
+     padding:10px 0;
+     color: #fff;
+     outline: none;
+     background: transparent;
+     border: solid 2px white;
+     width: 105%;
+     cursor: pointer;
+   }
+   input:focus~label,
+   input:valid~label
+   {
+     top:-30px;
+     font-size: 12px;
+   }
+
+  .top-tab{
+    display: flex;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  
+  } 
+
+  }
+  
+
+  /* tablet */
+  
+  @media only screen and (min-width:481px) and (max-width:768px) {
+html {
+ font-size: 10px;
+}
+  nav {
+      position:absolute;
+      width: 100vw;
+      align-items: center;
+      justify-content: space-between;
+      padding: .5rem .5rem;
+    }
+    nav a:hover {
+      border-bottom: 3px dotted pink;
+    }
+  
+    nav ul {
+      display: flex;
+      gap: 1.9rem;
+    }
+    .invisible{
+      padding: top 5%;
+      padding-bottom:5%;
+      color:white;
+      font-size: 1rem;
+      font-style:italic;
+      text-align: center;
+    }
+  
+   .my-name {
+      font-size: 1.5rem;
+   }
+   .navigation{
+    font-size: 0rem;
+    font-weight: 400;
+  }
+   .gif{
+     height: 40px;
+     width: 40px;
+   }
+   .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+   }
+    .hero-img {
+     position: sticky;
+     height: 50%;
+     width: 50%;
+     border-radius: 50%;
+     border: dotted pink 4px;
+    }
+  
+  
+  #home {
+    min-height:auto;
+    width: 100%;
+    padding-top: 10%;
+    background-image:none;
+    width: 100%;
+    height: auto;
+    }
+  
+  #About {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:none;
+   }
+   header {
+    width: 95%;
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+   section {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+   }
+   .box {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    background-color: #FADCD9;
+  
+   }
+  .text {
+    color: white;
+    font-size: .85rem;
+  }
+  .level {
+    padding-top: 20px;
+  }
+  
+  #experience {
+    height:auto;
+    min-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:none;
+   }
+  
+   .exp-head{
+    font-size: 1.5em;
+    padding-bottom: 10%;
+  }
+   .timeline {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+   }
+   .timeline ul{
+     list-style: none;
+  
+   }
+   .timeline ul li{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 15vh;
+    width: 45%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   }
+   .timeline ul li:last-child {
+    margin-bottom:0;
+   }
+  .timeline-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+   .insti{
+    font-size: 1.25rem;
+    margin-bottom:0px;
+   }
+   .year {
+    font-size: 1rem;
+    color: powderblue;
+       padding-bottom: 5px;
+        }
+      .info {
+        font-size: 1rem;
+        line-height: 30px;
+        font-weight: 0;
+    }
+  #skills {
+    min-height:auto;
+    padding-top: 10%;
+    width:100%;
+    background-image:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+  
+  #projects {
+  min-height:auto;
+  padding-top: 10%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:none;
+}
+
+#contact {
+    min-height:auto;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    display: flex;
+    background-image: none;
+    align-items: center;
+    justify-content: center;
+  }
+    form {
+      width: 70%;
+      max-width: auto;
+    }
+    
+    .input-group {
+      margin-bottom: 25px;
+      position: relative;
+    }
+    
+    input, textarea{
+      width: 100%;
+      padding: 4px;
+      outline: 0;
+      border: 2px solid white;
+      background-color: transparent;
+      font-size: 15px;
+    }
+    
+   button{
+       padding:10px 0;
+       color: #fff;
+       outline: none;
+       background: transparent;
+       border: solid 2px white;
+       width: 105%;
+       cursor: pointer;
+     }
+     input:focus~label,
+     input:valid~label
+     {
+       top:-30px;
+       font-size: 12px;
+     }
+  
+    .top-tab{
+      display: flex;
+      padding-bottom: 20px;
+      justify-content: space-around;
+    
+    } 
+  }
+  
+  /* desktop */
+  
+  @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  
+    nav a:hover {
+      border-bottom: 7px dotted pink;
+    }
+    nav ul {
+      display: flex;
+      gap: 1rem;
+    }
+    nav ul li {
+      font-weight: var(bold-font);
+    }
+    ul {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+  
+    }
+   .my-name {
+      color: #5b0e2dcd;
+      font-size: 1.5rem;
+   }
+   .nav-head {
+    color: #5b0e2dcd;
+   }
+   .navigation{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+    
+  }
+  
+  
